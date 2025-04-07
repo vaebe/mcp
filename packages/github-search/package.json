@@ -1,6 +1,6 @@
 {
   "name": "@vaebe/server-github-search",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "MCP server for using the GitHub search API",
   "license": "MIT",
   "author": "vaebe",
