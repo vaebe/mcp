@@ -4,8 +4,8 @@
   "description": "MCP server for using the GitHub search API",
   "license": "MIT",
   "author": "vaebe",
-  "homepage": "https://modelcontextprotocol.io",
-  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
+  "homepage": "https://github.com/vaebe/mcp/packages/github-search",
+  "bugs": "https://github.com/vaebe/mcp/issues",
   "type": "module",
   "bin": {
     "mcp-server-github": "dist/index.js"

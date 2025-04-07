@@ -4,8 +4,8 @@
   "description": "MCP server for getting current time",
   "license": "MIT",
   "author": "vaebe",
-  "homepage": "https://modelcontextprotocol.io",
-  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
+  "homepage": "https://github.com/vaebe/mcp/packages/time",
+  "bugs": "https://github.com/vaebe/mcp/issues",
   "type": "module",
   "bin": {
     "mcp-server-github": "dist/index.js"
