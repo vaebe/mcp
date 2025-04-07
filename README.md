@@ -15,6 +15,8 @@ npx changeset
 # 更新版本号和生成发布日志
 npx changeset version
 
+# 测试发布
+pnpm -r publish --access public --dry-run --no-git-checks
 # 发布
-npm publish
+pnpm -r publish --access public --no-git-checks
 ```
