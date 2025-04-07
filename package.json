@@ -1,0 +1,14 @@
+{
+  "name": "@vaebe/mcp",
+  "version": "0.0.1",
+  "description": "Model Context Protocol servers",
+  "license": "MIT",
+  "author": "vaebe",
+  "homepage": "https://modelcontextprotocol.io",
+  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
+  "type": "module",
+  "files": [],
+  "scripts": {
+    "build": "pnpm run -r build"
+  }
+}
