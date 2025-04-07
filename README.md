@@ -20,3 +20,9 @@ pnpm -r publish --access public --dry-run --no-git-checks
 # 发布
 pnpm -r publish --access public --no-git-checks
 ```
+
+## 测试 mcp
+
+```bash
+npx @modelcontextprotocol/inspector node mcp/githubSearch.mjs
+```
