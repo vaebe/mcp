@@ -7,14 +7,12 @@ startCommand:
   configSchema:
     # JSON Schema defining the configuration options for the MCP.
     type: object
-    required:
-      - githubToken
     properties:
-      githubToken:
+      GithubToken:
         type: string
         description: The personal access token for accessing the GitHub API.
   commandFunction:
     # A function that produces the CLI command to start the MCP on stdio.
     |-
-    (config) => ({ command: 'node', args: ['dist/index.js'], env: { GITHUB_TOKEN: config.githubToken } })
+    (config) => ({ command: 'node', args: ['dist/index.js'], env: { GITHUB_TOKEN: config.GithubToken } })
   type: stdio

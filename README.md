@@ -26,3 +26,9 @@ pnpm -r publish --access public --no-git-checks
 ```bash
 npx @modelcontextprotocol/inspector node mcp/githubSearch.mjs
 ```
+
+## docker 打包测试
+
+```bash
+docker build -f packages/github-search/Dockerfile -t github-search .
+```
