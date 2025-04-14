@@ -6,7 +6,6 @@
   "author": "vaebe",
   "homepage": "https://github.com/vaebe/mcp/packages/time",
   "bugs": "https://github.com/vaebe/mcp/issues",
-  "type": "module",
   "bin": {
     "mcp-server-time": "dist/index.js"
   },

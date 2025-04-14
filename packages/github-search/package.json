@@ -6,7 +6,6 @@
   "author": "vaebe",
   "homepage": "https://github.com/vaebe/mcp/packages/github-search",
   "bugs": "https://github.com/vaebe/mcp/issues",
-  "type": "module",
   "bin": {
     "mcp-server-github-search": "dist/index.js"
   },

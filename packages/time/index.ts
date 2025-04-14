@@ -5,7 +5,7 @@ import { z } from 'zod'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc.js'
 import timezone from 'dayjs/plugin/timezone.js'
-import packageJson from './package.json' with { type: "json" }
+import packageJson from './package.json'
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
