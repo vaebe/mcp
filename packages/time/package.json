@@ -8,7 +8,7 @@
   "bugs": "https://github.com/vaebe/mcp/issues",
   "type": "module",
   "bin": {
-    "mcp-server-github": "dist/index.js"
+    "mcp-server-time": "dist/index.js"
   },
   "files": [
     "dist"
