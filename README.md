@@ -9,6 +9,9 @@ npm install @changesets/cli --save-dev
 # 初始化 changesets
 npx changeset init
 
+# 生成变更日志
+pnpm changelog
+
 # 创建一个新的 changeset
 npx changeset
 

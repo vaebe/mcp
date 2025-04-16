@@ -1,6 +1,6 @@
 {
   "name": "@vaebe/server-time",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "MCP server for getting current time",
   "license": "MIT",
   "author": "vaebe",
