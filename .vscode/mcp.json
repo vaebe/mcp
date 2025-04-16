@@ -1,0 +1,25 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "GITHUB_TOKEN",
+      "description": "GitHub token",
+      "password": true
+    }
+  ],
+  "servers": {
+    "github-search": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@vaebe/server-github-search"],
+      "env": {
+        "GITHUB_TOKEN": "${input:GITHUB_TOKEN}"
+      }
+    },
+    "get_current_time": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["xxxxx/mcp/packages/time/dist/index.js"],
+    },
+  }
+}
