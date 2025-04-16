@@ -57,7 +57,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
     }
 
     switch (request.params.name) {
-      case "search_github": {
+      case "github_search": {
         const { query, page, perPage, type } = SearchParamsSchema.parse(request.params.arguments);
 
         const url = `https://api.github.com/search/${type}?q=${encodeURIComponent(query)}&page=${page}&per_page=${perPage}`
