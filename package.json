@@ -14,9 +14,11 @@
   "files": [],
   "scripts": {
     "build": "pnpm run -r build",
-    "publish:packages": "pnpm -r publish --access public"
+    "publish:packages": "pnpm -r publish --access public",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.28.1"
+    "@changesets/cli": "^2.28.1",
+    "conventional-changelog-cli": "^5.0.0"
   }
 }

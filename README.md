@@ -19,6 +19,9 @@ npx changeset version
 pnpm -r publish --access public --dry-run --no-git-checks
 # 发布
 pnpm -r publish --access public --no-git-checks
+
+# 移除版本
+npm unpublish @vaebe/server-github-search@0.2.0 --force
 ```
 
 ## 测试 mcp
